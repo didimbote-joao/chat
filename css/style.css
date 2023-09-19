@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: #1a1924;
+  font-family: "Roboto", sans-serif;
+  color: #e1e1e6;
+  /* width: 375px; */
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 32px;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+#top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+  align-self: stretch;
+}
+#topheight {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+#avatar {
+  justify-content: center;
+  align-items: center;
+}
+#avatar img {
+  width: 48px;
+  height: 48px;
+}
+#topcenter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  flex: 1 0 0;
+}
+#topcenter p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#topcenterdown {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #00b37e;
+}
+#topcenterdown button {
+  background: url(../assets/ball.svg);
+  width: 8px;
+  height: 8px;
+  fill: #00b37e;
+  border: none;
+}
+#topcenterdown p {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#close button {
+  background: url(../assets/close.svg);
+  width: 20px;
+  height: 20px;
+  border: none;
+}
+#message1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  width: 50%;
+  max-width: 100%;
+}
+#message1Box {
+  display: flex;
+  /* width: 50%;
+  max-width: 100%; */
+  padding: 14px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 0px 8px 8px 8px;
+  background: #633bbc;
+}
+#message2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  align-self: stretch;
+}
+#message2Box {
+  display: flex;
+  padding: 14px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px 8px 0px 8px;
+  background: #07847e;
+}
+
+#contentSMS {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#down {
+  display: flex;
+  padding-top: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+}
+#downBox {
+  display: flex;
+  padding: 14px 24px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 999px;
+  background: #282843;
+}
+#downBox p {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  flex: 1 0 0;
+}
+#downBox button {
+  width: 24px;
+  height: 24px;
+  background: url(../assets/send.svg);
+  border: none;
+}
